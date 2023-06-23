@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CCPX DNC PROJETO</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="./assets/logoCCPX.svg" alt="logo CCPX">
+      <img src="./assets/logoCCPX.svg" alt="logo CCPX" width="130px" />
     </header>
     <main class="main">
-        <article id="informations">
-            <h1>REVIVA O ÉPICO</h1>
-            <h3>DE 01 A 04 DE DEZEMBRO</h3>
-            <p>
-                Você consegue sentir? É aquela sensação de <br>
-                finalmente poder falar em voz alta: "estamos <br>
-                em casa". Sim, em dezembro de 2022, <br>
-                teremos a volta da CCXP física. Mas não será<br>
-                qualquer CCXP, vai ser a maior de todos os <br>
-                tempos. Prepare-se para visitar seus<br>
-                universos favoritos, explorar o Artists' Valley,<br>
-                se emocionar nos auditórios e encontrar<br>
-                aventuras épicas a cada passo pelos<br>
-                nossos corredores.
-            </p>
-        </article>
-        <article id="coutdown_section">
-            
-        </article>
-        <script src="javascriptCCPX.js"></script>
+      <article id="informations">
+        <h1>REVIVA O ÉPICO</h1>
+        <h3>DE 01 A 04 DE DEZEMBRO</h3>
+        <p>
+          Você consegue sentir? É aquela sensação de <br />
+          finalmente poder falar em voz alta: "estamos <br />
+          em casa". Sim, em dezembro de 2022, <br />
+          teremos a volta da CCXP física. Mas não será<br />
+          qualquer CCXP, vai ser a maior de todos os <br />
+          tempos. Prepare-se para visitar seus<br />
+          universos favoritos, explorar o Artists' Valley,<br />
+          se emocionar nos auditórios e encontrar<br />
+          aventuras épicas a cada passo pelos<br />
+          nossos corredores.
+        </p>
+      </article>
+      <article id="coutdown_section">
+        <div class="timer">
+          <div class="relogio">
+            <h1 id="dia">D</h1>
+          </div>
+          <div class="relogio">
+            <h1 id="hora">H</h1>
+          </div>
+          <div class="relogio">
+            <h1 id="minuto">M</h1>
+          </div>
+          <div class="relogio">
+            <h1 id="segundo">S</h1>
+          </div>
+        </div>
+        <div id="coutdown_text">
+            <h1>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h1>
+        </div>
+        <div id="video">
+            <video controls loop width="95%"><source src="./assets/Arlequina.mp4" type="video/mp4" ></video>
+        </div>
+      </article>
     </main>
-</body>
+    <footer>
+        <h3>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+      </footer>
+      <script src="javascriptCCXP.js"></script>
+  </body>
 </html>
