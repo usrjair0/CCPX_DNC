@@ -45,7 +45,7 @@
 }
 .relogio{
     margin: 20px 40px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #514988;
 }
 #video{
@@ -95,12 +95,7 @@ button {
     #videoint{
         display: block;
         margin: 0 auto;
-    }
-    .relogio{
-        margin: 20px 20px;
-        font-size: 1.1rem;
-        color: #514988;
-    }
+    } 
     #video{
         width: 80%;
     }
@@ -109,5 +104,6 @@ button {
         flex-direction: column;
         margin: 20px auto;
         flex-wrap: wrap;
+        text-align: center;
     }
 }
