@@ -1,5 +1,7 @@
 :root{
     font-size: 18px;
+    --roxo: #514988;
+    --amarelo: #F3C61F;
 }
 *{
     margin: 0;
@@ -8,7 +10,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header{
-    background-color: #FFD900;
+    background-image: linear-gradient(to right, var(--amarelo), #f7cb2f 80%, #f7cb2f);
     padding: 20px 40px;
 }
 .main{
@@ -21,7 +23,7 @@
     padding-bottom: 70px;
     text-align: center;
     color: white;
-    background-color: #514988;
+    background-image: linear-gradient(var(--roxo), #090329);
     line-height: 1.25;
     font-size: 1.2rem;
 }
@@ -95,7 +97,7 @@ button:hover{
         width: 100vw;
     }
     .relogio{
-        margin: 20px 30px;
+        margin: 20px 10px;
     }
     #videoint{
         display: block;
@@ -110,5 +112,8 @@ button:hover{
         margin: 20px auto;
         flex-wrap: wrap;
         text-align: center;
+    }
+    footer h1 {
+        margin-left: 0px;
     }
 }
