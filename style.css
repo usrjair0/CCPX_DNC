@@ -59,11 +59,14 @@ footer {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
 }
-footer h1 {
+footer h2 {
     color: #F3C61F;
     margin-top: 15px;
     margin-left: 40px;
     margin-bottom: 20px;
+}
+#mostruario img{
+    padding: 10px;
 }
 #buttom_div{
   display: flex;
@@ -86,7 +89,6 @@ button:hover{
     background-color: #312b52;
     scale: 1.1;
 }
-
 @media (max-width: 600px){
     :root{
         font-size: 13px;
@@ -113,7 +115,8 @@ button:hover{
         flex-wrap: wrap;
         text-align: center;
     }
-    footer h1 {
+    footer h2 {
         margin-left: 0px;
+        padding: 10px;
     }
 }
