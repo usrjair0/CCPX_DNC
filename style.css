@@ -23,7 +23,7 @@
     color: white;
     background-color: #514988;
     line-height: 1.25;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
   #informations h1{
     color: #F3C61F;
@@ -57,7 +57,7 @@ footer {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
 }
-footer h3 {
+footer h1 {
     color: #F3C61F;
     margin-top: 15px;
     margin-left: 40px;
@@ -96,7 +96,7 @@ button:hover{
         margin: 0 auto;
     } 
     #video{
-        width: 80%;
+        width: 90%;
     }
     footer {
         display: flex;
