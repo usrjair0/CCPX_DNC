@@ -23,7 +23,7 @@
     color: white;
     background-color: #514988;
     line-height: 1.25;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
   #informations h1{
     color: #F3C61F;
@@ -77,6 +77,9 @@ button {
     border-radius: 20px;
     border: none;
 }
+#buttom_div{
+    margin-top: 20px;
+}
 button:hover{
     background-color: #312b52;
     scale: 1.1;
@@ -84,12 +87,15 @@ button:hover{
 
 @media (max-width: 600px){
     :root{
-        font-size: 10px;
+        font-size: 13px;
     }
     .main{
         display: flex;
         flex-direction: column; 
         width: 100vw;
+    }
+    .relogio{
+        margin: 20px 30px;
     }
     #videoint{
         display: block;
