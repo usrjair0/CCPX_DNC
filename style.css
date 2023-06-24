@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header{
+.header{
     background-color: #FFD900;
     padding: 20px 40px;
     min-width: 700px;
@@ -60,9 +60,6 @@ footer h3 {
     margin-left: 40px;
     margin-bottom: 20px;
 }
-#mostruario {
-    margin-left: 10px;
-}
 #buttom_div{
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
@@ -76,4 +73,25 @@ button {
     width: 65%;
     border-radius: 20px;
     border: none;
+}
+
+@media (max-width: 600px){
+    :root{
+        font-size: 10px;
+    }
+    .header{
+        background-color: #FFD900;
+        padding: 20px 40px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column; 
+        width: 100vh;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        flex-wrap: wrap;
+    }
 }
