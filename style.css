@@ -83,14 +83,14 @@ button {
     .header {
         background-color: #FFD900;
         padding: 20px 40px;
-        width: 100vh;
+        width: 100vw;
     }
     .main{
         display: flex;
         flex-direction: column; 
     }
     #informations {
-        width: 100vh;
+        width: 100vw;
     }
     #videoint{
         display: block;
