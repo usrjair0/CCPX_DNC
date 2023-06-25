@@ -58,6 +58,7 @@
 footer {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
+    margin-bottom: 55px;
 }
 footer h2 {
     color: #F3C61F;
@@ -67,6 +68,7 @@ footer h2 {
 }
 #mostruario img{
     padding: 10px;
+    transition: transform 0.3s e;
 }
 #buttom_div{
   display: flex;
