@@ -68,7 +68,6 @@ footer h2 {
 }
 #mostruario img{
     padding: 10px;
-    transition: transform 0.3s e;
 }
 #buttom_div{
   display: flex;
