@@ -52,6 +52,9 @@
     font-size: 1.3rem;
     color: #514988;
 }
+video{
+    width: 95%;
+}
 footer {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
@@ -99,11 +102,7 @@ button:hover{
     .relogio{
         margin: 20px 10px;
     }
-    #videoint{
-        display: block;
-        margin: 0 auto;
-    } 
-    #video{
+    video{
         width: 90%;
     }
     footer {
