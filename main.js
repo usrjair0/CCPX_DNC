@@ -1,10 +1,5 @@
-function addBorder(element){
-    element.style.border = "1px solid black";
-    element.style.transition = 'transform 0.4s ease-in'; 
-    element.style.transform = 'scale(1.3)';
+function addBorder(element){ //essa função recebe como parametro um element que no caso é o "#id"
+  var card = document.querySelector(element); //o #id entra aqui e com isso seleciono o card que quero
+  card.classList.toggle("cardChanges"); //não colocar o . do class apenas o nome.
 }
-function removeBorder(element){
-    element.style.border = "none";
-    element.style.transition = 'transform 0.4s ease-out'; 
-    element.style.transform = 'scale(1.0)';
-}
+
