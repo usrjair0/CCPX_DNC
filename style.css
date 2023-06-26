@@ -1,3 +1,4 @@
+/*configurações iniciais*/
 :root{
     font-size: 18px;
     --roxo: #514988;
@@ -9,10 +10,12 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/*cabeça do document*/
 .header{
     background-image: linear-gradient(to right, var(--amarelo), #f7cb2f 80%, #f7cb2f);
     padding: 20px 40px;
 }
+/*Informações principais da página*/
 .main{
     display: grid;
     grid-template-columns: 0.4fr 0.6fr;
@@ -55,6 +58,7 @@
 video{
     width: 95%;
 }
+/*Botão imagens e titulos do footes*/
 footer {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
@@ -68,13 +72,15 @@ footer h2 {
 }
 #mostruario img{
     padding: 10px;
+    cursor: pointer;
 }
 #buttom_div{
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
+  margin-top: 20px
 }
-button {
+#cliqueAqui {
     background-color: #514988;
     color: white;
     font-size: 1.6rem;
@@ -82,11 +88,9 @@ button {
     width: 65%;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
-#buttom_div{
-    margin-top: 20px;
-}
-button:hover{
+#cliqueAqui:hover{
     background-color: #312b52;
     scale: 1.1;
 }
