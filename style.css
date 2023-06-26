@@ -97,13 +97,9 @@ button:hover{
     .main{
         display: flex;
         flex-direction: column; 
-        width: 100vw;
     }
     .relogio{
         margin: 20px 10px;
-    }
-    video{
-        width: 90%;
     }
     footer {
         display: flex;
