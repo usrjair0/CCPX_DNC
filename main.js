@@ -22,7 +22,7 @@ function addKeyboardEventListeners(){
         var domingo = document.getElementById('domingo');
 
         var code = event.code;
-        if(code == 'Digit1' || 'Numpad1'){
+        if(code == 'Digit1'){
             quinta.classList.toggle('cardChanges');
             sexta.classList.remove('cardChanges');
             sabado.classList.remove('cardChanges');
