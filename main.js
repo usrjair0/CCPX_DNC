@@ -9,12 +9,12 @@ function selectCard(selector){
     element.classList.toggle("card-selected");
     if(ingressos.includes(selector)){
         ingressos.splice(ingressos.indexOf(selector), 1); 
-        //aqui estou declarrando que o elemento apagado será o correspondente selector
+        //o ingressos.infexOf(selector) retorna a posição do card selecionada dentro da minha string
     }else{
         ingressos.push(selector);
     }
 }
-function showSelectedCards(){
+ showSelectedCards = () => {
     if(ingressos.length > 0){
         alert("Os ingressos selecionados foram:"+ ingressos);
     }else{
