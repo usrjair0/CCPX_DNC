@@ -1,6 +1,12 @@
+const ingressos = []; 
 function addBorder(element){ //essa função recebe como parametro um element que no caso é o "#id"
   var card = document.querySelector(element); //o #id entra aqui e com isso seleciono o card que quero
   card.classList.toggle("cardChanges"); //não colocar o . do class apenas o nome.
+}
+function selectCard(selector){
+    var element = document.getElementsByClassName('cards-ingressos');
+    element.classList.toggle(".card-selected");
+    if(ingressos.includes(selector))
 }
 //Desafio alternar entre eventos de teclado
 /* 

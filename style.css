@@ -81,6 +81,9 @@ footer h2 {
     transform: scale(1.1);
     box-shadow: 10px 10px 10px gray;
 }
+.card-selected{
+    border: 5px solid greenyellow;
+}
 #buttom_div{
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
