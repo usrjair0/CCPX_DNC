@@ -1,13 +1,28 @@
+//Definindo o array ingressos que começa vazio
 const ingressos = []; 
-function addBorder(element){ //essa função recebe como parametro um element que no caso é o "#id"
-  var card = document.querySelector(element); //o #id entra aqui e com isso seleciono o card que quero
-  card.classList.toggle("cardChanges"); //não colocar o . do class apenas o nome.
+function addBorder(element){ 
+  var card = document.querySelector(element);
+  card.classList.toggle("cardChanges");
 }
 function selectCard(selector){
-    var element = document.getElementsByClassName('cards-ingressos');
-    element.classList.toggle(".card-selected");
-    if(ingressos.includes(selector))
+    var element = document.querySelector(selector); 
+    element.classList.toggle("card-selected");
+    if(ingressos.includes(selector)){
+        ingressos.splice(ingressos.indexOf(selector), 1); 
+        //aqui estou declarrando que o elemento apagado será o correspondente selector
+    }else{
+        ingressos.push(selector);
+    }
 }
+function showSelectedCards(){
+    if(ingressos.length > 0){
+        alert("Os ingressos selecionados foram:"+ ingressos);
+    }else{
+        alert("Por favor, selecione algum dos ingressos!")
+    }
+}
+
+
 //Desafio alternar entre eventos de teclado
 /* 
 function checkKeyboardCode(){

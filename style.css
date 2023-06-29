@@ -75,15 +75,18 @@ footer h2 {
     cursor: pointer;
     border-radius: 10px;
 }
-.cardChanges {
-    border: 1px solid gray;
-    transition: transform 0.3s ease-in; 
-    transform: scale(1.1);
-    box-shadow: 10px 10px 10px gray;
-}
-.card-selected{
-    border: 5px solid greenyellow;
-}
+/*Mudanças nos cards quando selecionados*/
+    .cardChanges {
+        border: 1px solid gray;
+        transition: transform 0.3s ease-in; 
+        transform: scale(1.1);
+        box-shadow: 10px 10px 10px gray;
+    }
+    .card-selected{
+        border: 20px solid greenyellow;
+    }
+/*        FIM DAS MUDANÇAS NOS CARDS      */
+
 #buttom_div{
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
