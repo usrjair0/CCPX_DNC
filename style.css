@@ -107,6 +107,35 @@ footer h2 {
     background-color: #312b52;
     scale: 1.1;
 }
+#formSection{
+    background-image: linear-gradient(var(--roxo), #090329);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 30vh;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    background-color: #665e9c;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    width: 300px;
+    height: 40px;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+    input::placeholder {
+        color: rgb(175, 175, 175);
+    }
+    #enviar__email:hover{
+        background-color: #312b52;
+        scale: 1.1;
+    }
 @media (max-width: 600px){
     :root{
         font-size: 13px;
