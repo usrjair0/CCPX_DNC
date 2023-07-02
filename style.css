@@ -62,7 +62,6 @@ video{
     width: 90%;
     border-radius: 20px;
 }
-
 /*Botão imagens e titulos do footes*/
 footer {
     display: grid;
@@ -172,6 +171,9 @@ form input{
     footer h2 {
         margin-left: 0px;
         padding: 10px;
+    }
+    #mostruario img{
+        padding: 0 0 7px 0;
     }
     form input{
         margin-top: 10px;
