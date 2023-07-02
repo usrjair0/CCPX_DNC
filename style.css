@@ -145,6 +145,7 @@ form input{
 #enviar__email{
     width: 15%;
     padding: 10px;
+    cursor: pointer;
 }  
     #enviar__email:hover{
         background-color: #312b52;
