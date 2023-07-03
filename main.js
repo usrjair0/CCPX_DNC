@@ -4,19 +4,19 @@ function addBorder(element){
   var card = document.querySelector(element);
   card.classList.toggle("cardChanges");
 }
-function selectCard(selector){
-    var element = document.querySelector(selector); 
+function selectCard(id){
+    var element = document.getElementById(id); 
     element.classList.toggle("card-selected");
-    if(ingressos.includes(selector)){
-        ingressos.splice(ingressos.indexOf(selector), 1); 
+    if(ingressos.includes(id)){
+        ingressos.splice(ingressos.indexOf(id), 1); 
         //o ingressos.infexOf(selector) retorna a posição do card selecionada dentro da minha string
     }else{
-        ingressos.push(selector);
+        ingressos.push(id);
     }
 }
  showSelectedCards = () => {
     if(ingressos.length > 0){
-        alert("Os ingressos selecionados foram:"+ ingressos);
+        alert("Os ingressos selecionados foram:"+" "+ingressos);
     }else{
         alert("Por favor, selecione algum dos ingressos!")
     }
