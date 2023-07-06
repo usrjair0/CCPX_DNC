@@ -78,11 +78,11 @@ footer h2 {
     padding: 10px;
     cursor: pointer;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 /*Mudanças nos cards quando selecionados*/
     .cardChanges {
         border: 1px solid gray;
-        transition: transform 0.3s ease-in; 
         transform: scale(1.1);
         box-shadow: 10px 10px 10px gray;
     }
