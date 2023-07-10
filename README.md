@@ -1,6 +1,6 @@
 # Nome do Projeto
-Breve descrição do projeto, incluindo seu propósito e funcionalidades principais. <br>
-Este projeto consiste em um site desenvolvido utilizando HTML, CSS e JavaScript. O objetivo é fornecer uma interface atraente e interativa para os usuários, com recursos específicos mencionados nesta seção.
+O projeto consiste em uma landing page interativa com html, animações em CSS e várias utilizações do javascript. <br>
+O objetivo é fornecer uma interface atraente e interativa para os usuários, com recursos específicos mencionados nesta seção.
 (Descreva as principais funcionalidades do site e seu propósito.)
 
 # Pré-requisitos
