@@ -3,10 +3,6 @@ O projeto consiste em uma landing page interativa com html, animações em CSS e
 O objetivo é fornecer uma interface atraente e interativa para os usuários, com recursos específicos mencionados nesta seção.
 (Descreva as principais funcionalidades do site e seu propósito.)
 
-# Pré-requisitos
-Indique os pré-requisitos necessários para executar o projeto em um ambiente local. Por exemplo, as versões recomendadas do navegador, a instalação de algum software adicional, entre outros.
-
-Navegador web atualizado (recomenda-se Google Chrome, Mozilla Firefox, etc.)
 # Instalação
 Instruções claras e concisas sobre como baixar e configurar o projeto em um ambiente local.
 
