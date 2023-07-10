@@ -1,5 +1,5 @@
 # CCXP DNC 
-<p>oi</p>p>O projeto consiste em uma landing page interativa com html, animações em CSS e várias utilizações do javascript. <br>
+O projeto consiste em uma landing page interativa com html, animações em CSS e várias utilizações do javascript. <br>
 O objetivo é fornecer uma interface atraente e interativa para os usuários, com recursos específicos mencionados nesta seção.
 (Descreva as principais funcionalidades do site e seu propósito.)
 
